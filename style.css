@@ -1,0 +1,33 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #6aa54c;
+    padding: 100px 0 100px 0;
+}
+body{
+   
+   
+    display: flex;
+    flex-direction:column ;
+     align-items: center;
+     
+}
+.wrapper{
+    width: 90%;
+    height: 90%;
+    background-image: url("./images/Background.jpeg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    filter: brightness(60%) sepia(30%)
+}
+.menu{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
